@@ -5,10 +5,10 @@
             <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="0px" class="demo-ruleForm">
             <div class="ms-title">后台管理系统</div>
                 <el-form-item prop="username">
-                    <el-input v-model="ruleForm.username" placeholder="username"></el-input>
+                    <el-input v-model="ruleForm.username" placeholder="请输入用户名"></el-input>
                 </el-form-item>
                 <el-form-item prop="password">
-                    <el-input type="password" placeholder="password" v-model="ruleForm.password" @keyup.enter.native="submitForm('ruleForm')"></el-input>
+                    <el-input type="password" placeholder="请输入密码" v-model="ruleForm.password" @keyup.enter.native="submitForm('ruleForm')"></el-input>
                 </el-form-item>
                 <div class="login-btn">
                     <el-button type="primary" @click="submitForm('ruleForm')">登录</el-button>

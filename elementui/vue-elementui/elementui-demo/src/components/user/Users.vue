@@ -76,7 +76,7 @@
 
   </div>
 </template>
-<style type="text/css" scoped>
+<style type="text/css" slot-scope>
   .block {
     margin-top: 20px;
     width: 100%;
